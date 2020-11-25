@@ -85,13 +85,15 @@ namespace ExamenPrimerTrimestre
         }
 
         public static void SumOfNumber()
-        {
+        {       
+            
+            int sum = 0;
+
+
             while (true)
             {
                 int number = Convert.ToInt32(Console.ReadLine());
-                int add = 0;
-                int sum =  number + add;
-                add += sum;
+                sum += number;
                 
                 Console.WriteLine(sum);
                 if (number == 0 || number < 0)

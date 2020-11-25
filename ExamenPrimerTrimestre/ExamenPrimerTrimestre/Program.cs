@@ -11,10 +11,21 @@ namespace ExamenPrimerTrimestre
             //Examen.PositiveOrNegative();
             //Console.WriteLine(Examen.GreatNumberOfThree()); 
             //Examen.PrintNumbers();
-            Examen.SumOfNumber();
+            //Examen.SumOfNumber();
+
+            int a = Convert.ToInt32(Console.ReadLine());
+            int b = Convert.ToInt32(Console.ReadLine());
+            for (int i = a; i > 0; i--)
+            {
+                if (a % i == 0 && b % i == 0)
+                {                    
+                        Console.WriteLine(i);                       
+                    
+                }
+            }
+
 
         }
-
 
     }
 }
